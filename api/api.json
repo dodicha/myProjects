@@ -1,0 +1,782 @@
+    {
+        "machines": {
+            "edge": {
+                "name": "edge",
+                "materials": {
+                    "acrilic": {
+                        "name": "acrilic",
+                        "thickness": {
+                            "3მმ": {
+                                "cuting": {
+                                    "power": 100,
+                                    "speed": 30,
+                                    "frecuency": 100
+                                }
+                            },
+                            "6მმ": {
+                                "cuting": {
+                                    "power": 100,
+                                    "speed": 10,
+                                    "frecuency": 100
+                                }
+
+                            },
+                            "9.5მმ": {
+                                "cuting": {
+                                    "power": 100,
+                                    "speed": 5,
+                                    "frecuency": 100
+                                }
+                            },
+                            "13მმ": {
+                                "cuting": {
+                                    "power": 100,
+                                    "speed": 2,
+                                    "frecuency": 100
+                                }
+                            }
+                        },
+                        "rastering": {
+                            "power": 50,
+                            "speed": 100,
+                            "DPI": 300
+                        }
+                    },
+                    "wood": {
+                        "name": "wood",
+                        "thickness": {
+                            "3მმ": {
+                                "cuting": {
+                                    "power": 100,
+                                    "speed": 30,
+                                    "frecuency": 10
+                                }
+                            },
+                            "6მმ": {
+                                "cuting": {
+                                    "power": 100,
+                                    "speed": 12,
+                                    "frecuency": 10
+                                }
+                            },
+                            "9.5მმ": {
+                                "cuting": {
+                                    "power": 100,
+                                    "speed": 8,
+                                    "frecuency": 10
+                                }
+                            },
+                            "12მმ": {
+                                "cuting": {
+                                    "power": 100,
+                                    "speed": 4,
+                                    "frecuency": 10
+                                }
+                            }
+                        },
+                        "rastering": {
+                            "power": 100,
+                            "speed": 90,
+                            "DPI": 500
+                        } 
+                    },
+                    "glass": {
+                        "name": "glass",
+                        "thickness" : {
+                            "ნებისმიერი" : "ნებისმიერი"
+                        },
+                        "rastering": {
+                            "power": 100,
+                            "speed": 70,
+                            "DPI": 500
+                        }
+                    },
+                    "leather": {
+                        "name": "leather",
+                        "thickness": {
+                            "3მმ": {
+                                "cuting": {
+                                    "power": 100,
+                                    "speed": 25,
+                                    "frecuency": 50
+                                }
+                                
+                            }
+                        },
+                        "rastering": {
+                            "power": 40,
+                            "speed": 100,
+                            "DPI": 300
+                        }
+                    },
+                    "marble": {
+                        "name": "marble",
+                        "thickness" : {
+                            "ნებისმიერი" : "ნებისმიერი"
+                        },
+                        "rastering": {
+                            "power": 50,
+                            "speed": 100,
+                            "DPI": 300
+                        }
+                    },
+                    "plastics": {
+                        "name": "plastics",
+                        "thickness": {
+                            "1.5მმ": {
+                                "cuting": {
+                                    "power": 25,
+                                    "speed": 20,
+                                    "frecuency": 100
+                                }
+                            }
+                        },
+                        "rastering": {
+                            "power": 25,
+                            "speed": 100,
+                            "DPI": 300
+                        }
+                    }
+                }
+            },
+            "m2": {
+                "name": "m2",
+                "materials": {
+                    "acrilic": {
+                        "name": "acrilic",
+                        "thickness": {
+                            "3მმ": {
+                                "cuting": {
+                                    "power": 100,
+                                    "speed": 12,
+                                    "frecuency": 100
+                                },
+                                "rastering": {
+                                    "power": 30,
+                                    "speed": 90,
+                                    "DPI": 300
+                                }
+                            },
+                            "6მმ": {
+                                "cuting": {
+                                    "power": 100,
+                                    "speed": 7,
+                                    "frecuency": 100
+                                },
+                                "rastering": {
+                                    "power": 30,
+                                    "speed": 90,
+                                    "DPI": 300
+                                }
+                            },
+                            "9.5მმ": {
+                                "cuting": {
+                                    "power": 100,
+                                    "speed": 3,
+                                    "frecuency": 100
+                                },
+                                "rastering": {
+                                    "power": 30,
+                                    "speed": 90,
+                                    "DPI": 300
+                                }
+                            },
+                            "13მმ": {
+                                "cuting": {
+                                    "power": 100,
+                                    "speed": 1,
+                                    "frecuency": 100
+                                }
+                            }
+                        },
+                        "rastering": {
+                            "power": 30,
+                            "speed": 90,
+                            "DPI": 300
+                        }
+                    },
+                    "wood": {
+                        "name": "wood",
+                        "thickness": {
+                            "3მმ": {
+                                "cuting": {
+                                    "power": 100,
+                                    "speed": 40,
+                                    "frecuency": 10
+                                }
+                            },
+                            "6მმ": {
+                                "cuting": {
+                                    "power": 100,
+                                    "speed": 12,
+                                    "frecuency": 100
+                                }
+                            },
+                            "9.5მმ": {
+                                "cuting": {
+                                    "power": 100,
+                                    "speed": 8,
+                                    "frecuency": 100
+                                }
+                            },
+                            "12მმ": {
+                                "cuting": {
+                                    "power": 100,
+                                    "speed": 3,
+                                    "frecuency": 100
+                                }
+                            }
+                        },
+                        "rastering": {
+                            "power": 100,
+                            "speed": 100,
+                            "DPI": 600
+                        }
+                    },
+                    "glass": {
+                        "name": "glass",
+                        "thickness" : {
+                            "ნებისმიერი" : "ნებისმიერი"
+                        },
+                        "rastering": {
+                            "power": 100,
+                            "speed": 40,
+                            "DPI": 300
+                        }
+                    },
+                    "leather": {
+                        "name": "leather",
+                        "thickness": {
+                            "3მმ": {
+                                "cuting": {
+                                    "power": 100,
+                                    "speed": 25,
+                                    "frecuency": 50
+                                }
+                            }
+                        },
+                        "rastering": {
+                            "power": 15,
+                            "speed": 90,
+                            "DPI": 300
+                        }
+                    },
+                    "marble": {
+                        "name": "marble",
+                        "thickness" : {
+                            "ნებისმიერი" : "ნებისმიერი"
+                        },
+                        "rastering": {
+                            "power": 25,
+                            "speed": 90,
+                            "DPI": 300
+                        }
+                    },
+                    "plastics": {
+                        "name": "plastics",
+                        "thickness": {
+                            "1.5მმ": {
+                                "cuting": {
+                                    "power": 40,
+                                    "speed": 20,
+                                    "frecuency": 100
+                                }
+                            }
+                        },
+                        "rastering": {
+                            "power": 35,
+                            "speed": 90,
+                            "DPI": 300
+                        }
+                    }
+                }
+            },
+            "maker": {
+                "name": "maker",
+                "materials": {
+                    "acrilic": {
+                        "name": "acrilic",
+                        "thickness": {
+                            "3მმ": {
+                                "cuting": {
+                                    "power": 100,
+                                    "speed": 12,
+                                    "frecuency": 100
+                                }
+                            },
+                            "6მმ": {
+                                "cuting": {
+                                    "power": 100,
+                                    "speed": 6,
+                                    "frecuency": 100
+                                },
+                                "rastering": {
+                                    "power": 45,
+                                    "speed": 100,
+                                    "DPI": 300
+                                }
+                            }
+                        },
+                        "rastering": {
+                            "power": 30,
+                            "speed": 90,
+                            "DPI": 300
+                        }
+                    },
+                    "wood": {
+                        "name": "wood",
+                        "thickness": {
+                            "3მმ": {
+                                "cuting": {
+                                    "power": 100,
+                                    "speed": 25,
+                                    "frecuency": 20
+                                }
+                            },
+                            "6მმ": {
+                                "cuting": {
+                                    "power": 100,
+                                    "speed": 6,
+                                    "frecuency": 20
+                                }
+                            }
+                        },
+                        "rastering": {
+                            "power": 100,
+                            "speed": 60,
+                            "DPI": 500
+                        }
+                        
+                    },
+                    "glass": {
+                        "name": "glass",
+                        "thickness" : {
+                            "ნებისმიერი" : "ნებისმიერი"
+                        },
+                        "rastering": {
+                            "power": 100,
+                            "speed": 50,
+                            "DPI": 300
+                        }
+                    },
+                    "leather": {
+                        "name": "leather",
+                        "thickness": {
+                            "3მმ": {
+                                "cuting": {
+                                    "power": 100,
+                                    "speed": 40,
+                                    "frecuency": 10
+                                }
+                            }
+                        },
+                        "rastering": {
+                            "power": 15,
+                            "speed": 100,
+                            "DPI": 300
+                        }
+                    },
+                    "marble": {
+                        "name": "marble",
+                        "thickness" : {
+                            "ნებისმიერი" : "ნებისმიერი"
+                        },
+                        "rastering": {
+                            "power": 30,
+                            "speed": 100,
+                            "DPI": 300
+                        }
+                    },
+                    "plastics": {
+                        "name": "plastics",
+                        "thickness": {
+                            "1.5მმ": {
+                                "cuting": {
+                                    "power": 60,
+                                    "speed": 25,
+                                    "frecuency": 100
+                                }
+                            }
+                        },
+                        "rastering": {
+                            "power": 40,
+                            "speed": 100,
+                            "DPI": 300
+                        }
+                    }
+                }
+            },
+            "pro": {
+                "name": "pro",
+                "materials": {
+                    "acrilic": {
+                        "name": "acrilic",
+                        "thickness": {
+                            "3მმ": {
+                                "cuting": {
+                                    "power": 100,
+                                    "speed": 20,
+                                    "frecuency": 100
+                                }
+                            },
+                            "6მმ": {
+                                "cuting": {
+                                    "power": 100,
+                                    "speed": 10,
+                                    "frecuency": 100
+                                }
+                            },
+                            "9.5მმ": {
+                                "cuting": {
+                                    "power": 100,
+                                    "speed": 5,
+                                    "frecuency": 100
+                                }
+                            },
+                            "13მმ": {
+                                "cuting": {
+                                    "power": 100,
+                                    "speed": 2,
+                                    "frecuency": 100
+                                }
+                            }
+                        },
+                        "rastering": {
+                            "power": 30,
+                            "speed": 100,
+                            "DPI": 300
+                        }
+                    },
+                    "wood": {
+                        "name": "wood",
+                        "thickness": {
+                            "3მმ": {
+                                "cuting": {
+                                    "power": 100,
+                                    "speed": 25,
+                                    "frecuency": 10
+                                }
+                            },
+                            "6მმ": {
+                                "cuting": {
+                                    "power": 100,
+                                    "speed": 13,
+                                    "frecuency": 100
+                                }
+                            },
+                            "9.5მმ": {
+                                "cuting": {
+                                    "power": 100,
+                                    "speed": 7,
+                                    "frecuency": 100
+                                }
+                            },
+                            "12მმ": {
+                                "cuting": {
+                                    "power": 100,
+                                    "speed": 4,
+                                    "frecuency": 100
+                                }
+                            }
+                        },
+                        "rastering": {
+                            "power": 100,
+                            "speed": 100,
+                            "DPI": 500
+                        }
+                        
+                    },
+                    "glass": {
+                        "name": "glass",
+                        "thickness" : {
+                            "ნებისმიერი" : "ნებისმიერი"
+                        },
+                        "rastering": {
+                            "power": 100,
+                            "speed": 40,
+                            "DPI": 300
+                        }
+                    },
+                    "leather": {
+                        "name": "leather",
+                        "thickness": {
+                            "3მმ": {
+                                "cuting": {
+                                    "power": 100,
+                                    "speed": 55,
+                                    "frecuency": 50
+                                }
+                            }
+                        },
+                        "rastering": {
+                            "power": 15,
+                            "speed": 100,
+                            "DPI": 300
+                        }
+                    },
+                    "marble": {
+                        "name": "marble",
+                        "thickness" : {
+                            "ნებისმიერი" : "ნებისმიერი"
+                        },
+                        "rastering": {
+                            "power": 25,
+                            "speed": 100,
+                            "DPI": 300
+                        }
+                    },
+                    "plastics": {
+                        "name": "plastics",
+                        "thickness": {
+                            "1.5მმ": {
+                                "cuting": {
+                                    "power": 40,
+                                    "speed": 20,
+                                    "frecuency": 100
+                                }
+                            }
+                        },
+                        "rastering": {
+                            "power": 35,
+                            "speed": 100,
+                            "DPI": 300
+                        }
+                    }
+                }
+            },
+            "galvo": {
+                "name": "mini",
+                "materials": {
+                    "acrilic": {
+                        "name": "acrilic",
+                        "thickness": {
+                            "3მმ": {
+                                "cuting": {
+                                    "power": 100,
+                                    "speed": 25,
+                                    "frecuency": 5000
+                                }
+                            },
+                            "6მმ": {
+                                "cuting": {
+                                    "power": 100,
+                                    "speed": 15,
+                                    "frecuency": 5000
+                                }
+                            },
+                            "9.5მმ": {
+                                "cuting": {
+                                    "power": 100,
+                                    "speed": 5,
+                                    "frecuency": 5000
+                                }
+                            }
+                        },
+                        "rastering": {
+                            "power": 40,
+                            "speed": 90,
+                            "DPI": 300
+                        }
+                    },
+                    "wood": {
+                        "name": "wood",
+                        "thickness": {
+                            "3მმ": {
+                                "cuting": {
+                                    "power": 100,
+                                    "speed": 45,
+                                    "frecuency": 500
+                                }
+                            },
+                            "6მმ": {
+                                "cuting": {
+                                    "power": 100,
+                                    "speed": 25,
+                                    "frecuency": 500
+                                }
+                            },
+                            "9.5მმ": {
+                                "cuting": {
+                                    "power": 100,
+                                    "speed": 12,
+                                    "frecuency": 500
+                                }
+                            }
+                        },
+                        "rastering": {
+                            "power": 100,
+                            "speed": 60,
+                            "DPI": 600
+                        }
+                        
+                    },
+                    "glass": {
+                        "name": "glass",
+                        "thickness" : {
+                            "ნებისმიერი" : "ნებისმიერი"
+                        },
+                        "rastering": {
+                            "power": 100,
+                            "speed": 35,
+                            "DPI": 300
+                        }
+                    },
+                    "leather": {
+                        "name": "leather",
+                        "thickness": {
+                            "3მმ": {
+                                "cuting": {
+                                    "power": 60,
+                                    "speed": 30,
+                                    "frecuency": 500
+                                }
+                            }
+                        },
+                        "rastering": {
+                            "power": 20,
+                            "speed": 90,
+                            "DPI": 30
+                        }
+                    },
+                    "marble": {
+                        "name": "marble",
+                        "thickness" : {
+                            "ნებისმიერი" : "ნებისმიერი"
+                        },
+                        "rastering": {
+                            "power": 35,
+                            "speed": 90,
+                            "DPI": 300
+                        }
+                    },
+                    "plastics": {
+                        "name": "plastics",
+                        "thickness": {
+                            "1.5მმ": {
+                                "cuting": {
+                                    "power": 70,
+                                    "speed": 30,
+                                    "frecuency": 5000
+                                }
+                            }
+                        },
+                        "rastering": {
+                            "power": 60,
+                            "speed": 90,
+                            "DPI": 300
+                        }
+                    }
+                }
+            },
+            "zing": {
+                "name": "zing",
+                "materials": {
+                    "acrilic": {
+                        "name": "acrilic",
+                        "thickness": {
+                            "3მმ": {
+                                "cuting": {
+                                    "power": 100,
+                                    "speed": 50,
+                                    "frecuency": 5000
+                                }
+                            },
+                            "6მმ": {
+                                "cuting": {
+                                    "power": 100,
+                                    "speed": 30,
+                                    "frecuency": 5000
+                                }
+                            }
+                        },
+                        "rastering": {
+                            "power": 15,
+                            "speed": 90,
+                            "DPI": 500
+                        }
+                    },
+                    "wood": {
+                        "name": "wood",
+                        "thickness": {
+                            "3მმ": {
+                                "cuting": {
+                                    "power": 25,
+                                    "speed": 70,
+                                    "frecuency": 500
+                                }
+                            },
+                            "6მმ": {
+                                "cuting": {
+                                    "power": 100,
+                                    "speed": 50,
+                                    "frecuency": 500
+                                }
+                            }
+                        },
+                        "rastering": {
+                            "power": 100,
+                            "speed": 95,
+                            "DPI": 500
+                        }
+                        
+                    },
+                    "glass": {
+                        "name": "glass",
+                        "thickness" : {
+                            "ნებისმიერი" : "ნებისმიერი"
+                        },
+                        "rastering": {
+                            "power": 100,
+                            "speed": 35,
+                            "DPI": 400
+                        }
+                    },
+                    "leather": {
+                        "name": "leather",
+                        "thickness": {
+                            "3მმ": {
+                                "cuting": {
+                                    "power": 50,
+                                    "speed": 80,
+                                    "frecuency": 500
+                                }
+                            }
+                        },
+                        "rastering": {
+                            "power": 20,
+                            "speed": 90,
+                            "DPI": 400
+                        }
+                    },
+                    "marble": {
+                        "name": "marble",
+                        "thickness" : {
+                            "ნებისმიერი" : "ნებისმიერი"
+                        },
+                        "rastering": {
+                            "power": 40,
+                            "speed": 90,
+                            "DPI": 400
+                        }
+                    },
+                    "plastics": {
+                        "name": "plastics",
+                        "thickness": {
+                            "1.5მმ": {
+                                "cuting": {
+                                    "power": 30,
+                                    "speed": 90,
+                                    "frecuency": 5000
+                                }
+                            }
+                        },
+                        "rastering": {
+                            "power": 100,
+                            "speed": 80,
+                            "DPI": 400
+                        }
+                    }
+                }
+            }
+        }
+    }

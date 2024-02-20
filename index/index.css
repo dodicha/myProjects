@@ -1,0 +1,59 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* Copyright */
+
+.src{
+    background-color: red;
+    display: flex;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+}
+.src p{
+    font-size: 25px;
+    margin-right: 25px;
+}
+.img{
+    margin-top: 4px;
+}
+.bit{
+    cursor: pointer;
+}
+
+
+/* Copyright ^^^ */
+
+/* Main conteiner */
+
+.main-conteiner{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-conteiner div{
+    margin: 5px;
+    width: 350px;
+    height: 350px;
+    border: 3px solid rgb(35, 8, 234);
+    border-radius: 10px;
+}
+.main-conteiner div:hover{
+    border: 3px solid green;
+    box-shadow: 4px 4px rgb(196, 194, 194);
+    cursor: pointer;
+}
+
+
+/* Main conteiner ^^^ */
+
+
+.epilog{
+    background-image: url("./img/epilog/epiloge.jpg");
+}
+
