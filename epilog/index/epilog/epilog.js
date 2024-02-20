@@ -15,7 +15,7 @@ let material;
 
 }
 
-async function color1(button){
+async function materialClick(button){
     for(let i = 6; i < btn.length; i++){
         btn[i].style.color = 'black';
         btn[i].style.backgroundColor = 'white'
@@ -32,7 +32,7 @@ async function main(){
         let mainObj = (await fetch('http://127.0.0.1:5500/api/api.json'));
         mainObj = await mainObj.json();
         // console.log(mainObj); working !
-        async function tryyy(cklickedMachine, clickedmMaterial){
+        async function clearTextContent(cklickedMachine, clickedmMaterial){
 
             let cutParent = document.getElementById("cut");
             let h4 = cutParent.querySelectorAll('h4');
@@ -81,7 +81,7 @@ async function main(){
             document.getElementById("raster").appendChild(dpi).appendChild(power).appendChild(speed);
 
         }
-        await tryyy(machine, material);
+        await clearTextContent(machine, material);
     }
 
     
