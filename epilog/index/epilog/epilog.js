@@ -32,7 +32,7 @@ async function main(){
         let mainObj = (await fetch('http://127.0.0.1:5500/api/api.json'));
         mainObj = await mainObj.json();
         // console.log(mainObj); working !
-        async function clearTextContent(cklickedMachine, clickedmMaterial){
+        async function textContent(cklickedMachine, clickedmMaterial){
 
             let cutParent = document.getElementById("cut");
             let h4 = cutParent.querySelectorAll('h4');
@@ -81,7 +81,7 @@ async function main(){
             document.getElementById("raster").appendChild(dpi).appendChild(power).appendChild(speed);
 
         }
-        await clearTextContent(machine, material);
+        await textContent(machine, material);
     }
 
     
